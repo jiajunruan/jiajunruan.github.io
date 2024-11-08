@@ -11,7 +11,7 @@ I’m Jiajun Ruan, currently a senior undergraduate student at [Zhejiang Univers
 
 Music has been a significant part of my life—I’ve been playing the cello for over ten years and have had the pleasure of performing with several orchestras. Besides music, I’m also passionate about sports, especially badminton and basketball, which I enjoy playing regularly.
 
-In terms of academics, my research interests lie in the field of machine learning, where I’m excited to explore new advancements and contribute to ongoing projects.
+As for academics, my research interests lie in the field of machine learning.
 
 
 
