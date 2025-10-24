@@ -7,36 +7,74 @@ author_profile: true
 
 {% include base_path %}
 
-## Conference Papers and Journal Articles
+<h2>Conference Papers and Journal Articles</h2>
 
-<b>NetPress: Dynamically Generated LLM Benchmarks for Network Applications</b><br>
-Yajie Zhou, <b>Jiajun Ruan</b>, Eric S Wang, Sadjad Fouladi, Francis Y Yan, Kevin Hsieh, Zaoxing Liu<br>
-<i>arXiv preprint arXiv:2506.03231, 2025</i><br>
-[Paper](https://arxiv.org/abs/2506.03231){:target="_blank"} 
-[BibTeX](#netpress2025){: .bibtex}
-
-<div id="netpress2025" style="display: none;">
-{% highlight bibtex %}
+<div class="pub-item">
+  <p class="pub-title"><b>NetPress: Dynamically Generated LLM Benchmarks for Network Applications</b></p>
+  <p class="pub-authors">
+    <u>Yajie Zhou</u>, <b>Jiajun Ruan</b>, Eric S. Wang, Sadjad Fouladi, Francis Y. Yan, Kevin Hsieh, Zaoxing Liu
+  </p>
+  <p class="pub-venue"><i>arXiv preprint arXiv:2506.03231</i>, 2025</p>
+  <p class="pub-links">
+    <a href="https://arxiv.org/abs/2506.03231" target="_blank">[Paper]</a>
+    <a href="#netpress2025" class="toggle-bibtex">[BibTeX]</a>
+  </p>
+  <pre id="netpress2025" class="bibtex-block" style="display:none;">
 @article{zhou2025netpress,
   title={NetPress: Dynamically Generated LLM Benchmarks for Network Applications},
-  author={Zhou, Yajie and Ruan, Jiajun and Wang, Eric S and Fouladi, Sadjad and 
-          Yan, Francis Y and Hsieh, Kevin and Liu, Zaoxing},
+  author={Zhou, Yajie and Ruan, Jiajun and Wang, Eric S. and Fouladi, Sadjad and 
+          Yan, Francis Y. and Hsieh, Kevin and Liu, Zaoxing},
   journal={arXiv preprint arXiv:2506.03231},
   year={2025}
 }
-{% endhighlight %}
+  </pre>
 </div>
 
 <script>
-document.querySelectorAll('.bibtex').forEach(link => {
-  link.onclick = function(e) {
+document.querySelectorAll('.toggle-bibtex').forEach(link => {
+  link.addEventListener('click', function(e) {
     e.preventDefault();
-    const target = document.getElementById(this.getAttribute('href').substring(1));
-    if (target.style.display === 'none') {
-      target.style.display = 'block';
-    } else {
-      target.style.display = 'none';
-    }
-  };
+    const target = document.querySelector(this.getAttribute('href'));
+    target.style.display = (target.style.display === 'none') ? 'block' : 'none';
+  });
 });
 </script>
+
+<style>
+.pub-item {
+  margin-bottom: 1.8em;
+  padding: 0.8em 1em;
+  border-left: 3px solid #4a90e2;
+  background-color: #fafafa;
+  border-radius: 8px;
+}
+.pub-title {
+  font-size: 1.05em;
+  margin-bottom: 0.2em;
+}
+.pub-authors {
+  color: #444;
+  font-size: 0.95em;
+  margin-bottom: 0.2em;
+}
+.pub-venue {
+  color: #666;
+  font-size: 0.9em;
+  margin-bottom: 0.3em;
+}
+.pub-links a {
+  text-decoration: none;
+  color: #0056b3;
+  margin-right: 10px;
+}
+.pub-links a:hover {
+  text-decoration: underline;
+}
+.bibtex-block {
+  background-color: #f3f3f3;
+  padding: 0.8em;
+  border-radius: 6px;
+  font-size: 0.85em;
+  overflow-x: auto;
+}
+</style>
