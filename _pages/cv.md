@@ -4,6 +4,8 @@ layout: default
 permalink: /cv/
 ---
 
+[Download CV as PDF](../files/Jiajun_cv.pdf)
+
 Education
 ======
 
