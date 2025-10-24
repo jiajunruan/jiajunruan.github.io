@@ -1,9 +1,14 @@
-
+---
+title: "CV"
+layout: default
+permalink: /cv/
+---
 
 Education
 ======
 
-* Master of Engineering in UIUC(University of Illinois Urbana-Champaign), in ECE Department
-* B.S. in Zhejiang University, majored in Information Science
+* Phd student in Electrical and Computer Engineering (ECE) at the University of Minnesota (UMN), starting from 2026 Spring.
+* Master of Engineering in UIUC (University of Illinois Urbana-Champaign), in ECE Department.
+* Bachelor of Engineering in Zhejiang University, majoring in Information Engineering.
 
 
