@@ -26,6 +26,12 @@ main:
     
   - title: "CV"
     url: /cv/
+
+  - title: "About"
+    url: /about/
+
+  - title: "Activity"
+    url: /activity/
     
   # - title: "Guide"
   #   url: /markdown/

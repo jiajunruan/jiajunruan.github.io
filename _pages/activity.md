@@ -1,8 +1,10 @@
 ---
-layout: archive
+permalink: /Activity/
 title: "Activity"
-permalink: /activity/
 author_profile: true
+redirect_from: 
+  - /Activity/
+  - /Activity.html
 ---
 
 ## Activity
