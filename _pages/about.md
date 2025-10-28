@@ -14,7 +14,7 @@ My research interest lies in the post-training phase of Large Language Models (L
 
 Prior to joining UMN, I completed my **Master of Engineering** in [Electrical and Computer Engineering (ECE)](https://ece.illinois.edu/) at the [University of Illinois Urbana-Champaign (UIUC)](https://illinois.edu/),  
 where I was **advised by [Prof. Francis Y. Yan](https://fyy.cs.illinois.edu/)**.  
-During my time at UIUC, I worked on applying LLMs to **network systems**, focusing on testing LLMs' automation and reasoning capabilities in network management.
+During my time at UIUC, I worked on applying LLMs to **network systems**, building benchmarks to test LLMs' automation and reasoning capabilities in network management.
 
 ---
 
