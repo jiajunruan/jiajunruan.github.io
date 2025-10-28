@@ -1,10 +1,10 @@
 ---
-permalink: /Activity/
+permalink: /activity/
 title: "Activity"
 author_profile: true
 redirect_from: 
-  - /Activity/
-  - /Activity.html
+  - /activity/
+  - /activity.html
 ---
 
 ## Activity
