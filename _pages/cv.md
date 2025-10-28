@@ -1,7 +1,8 @@
 ---
 layout: archive
-title: "cv"
+title: "CV"
 author_profile: true
+author: "Jiajun Ruan"
 ---
 
 [Download CV as PDF](../files/Jiajun_cv.pdf)
