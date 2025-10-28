@@ -1,8 +1,11 @@
 ---
 layout: archive
+permalink: /cv/
 title: "CV"
 author_profile: true
-author: "Jiajun Ruan"
+redirect_from: 
+  - "/cv/"
+  - "/cv.html"
 ---
 
 [Download CV as PDF](../files/Jiajun_cv.pdf)
