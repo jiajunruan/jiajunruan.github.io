@@ -30,8 +30,8 @@ main:
   - title: "CV"
     url: /cv/
 
-  - title: "Activity"
-    url: /activity/
+  # - title: "Activity"
+  #   url: /activity/
     
   # - title: "Guide"
   #   url: /markdown/
