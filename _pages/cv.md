@@ -1,7 +1,8 @@
 ---
-title: "CV"
-layout: default
-permalink: /cv/
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
 ---
 
 [Download CV as PDF](../files/Jiajun_cv.pdf)
